@@ -43,25 +43,26 @@
                 </fieldset>
                 <fieldset>
                     <legend>Сетка:</legend>
-                    <input type="radio" id="responsive" name="sample-grid" checked><label for="adaptive">Адаптивная</label>
+                    <input type="radio" id="responsive" name="sample-grid" checked><label for="responsive">Адаптивная</label>
                     <input type="radio" id="fixed" name="sample-grid"><label for="fixed">Фиксированная</label>
-                    <input type="radio" id="fluid"name="sample-grid"><label for="fluid">Резиновая</label>
+                    <input type="radio" id="fluid" name="sample-grid"><label for="fluid">Резиновая</label>
                 </fieldset>
                 <fieldset>
                     <legend>Особенности:</legend>
                     <input type="checkbox" id="slider" name="slider" checked><label for="slider">Слайдер</label>
                     <input type="checkbox" id="advantages" name="advantages"><label for="advantages">Блок преимуществ</label>
                     <input type="checkbox" id="news" name="news" checked><label for="news">Новости</label>
-                    <input type="checkbox" id="gallary" name="gallery"><label for="gallery">Галерея</label>
+                    <input type="checkbox" id="gallery" name="gallery"><label for="gallery">Галерея</label>
                     <input type="checkbox" id="cart" name="cart"><label for="cart">Корзина</label>
                 </fieldset>
                 <button type="submit">Показать</button>
             </form>
-            <div> 
-                <ul>Сортировать:
-                    <li><a href="">По цене</a></li>
-                    <li><a href="">По типу</a></li>
-                    <li><a href="">По названию</a></li>
+            <div>
+                <span>Сортировать:</span>
+                <ul>
+                    <li><a href="#">По цене</a></li>
+                    <li><a href="#">По типу</a></li>
+                    <li><a href="#">По названию</a></li>
                 </ul>
             </div>
             <article class="product-card">
@@ -102,7 +103,7 @@
                     191186, Санкт-Петербург,<br>
                     ул. Б.Конюшенная, д.19/8<br><br>
                     тел.: +7(812)275-75-75
-                    <a href="">Напишите нам</a>
+                    <a href="#">Напишите нам</a>
                 </section>
                 <section class="footer-social">
                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
@@ -113,5 +114,20 @@
                 </section>
             </div>    
         </footer>
+        <div class="modal-window">
+            <h1>Напишите нам</h1>
+            <form action="#" method="get">
+                <label>
+                    Ваше имя:<input type="text" name="username" placeholder="Представьтесь, пожалуйста">    
+                </label>
+                <label>
+                    Ваш e-mail:<input type="text" name="usermail" placeholder="Для отправки ответа">    
+                </label>
+                <label>
+                    Текст письма:<input type="text" name="letter" placeholder="В свободной форме">   
+                </label>
+                <input type="submit" value="Отправить"> 
+            </form>
+        </div>
     </body>
 </html>
