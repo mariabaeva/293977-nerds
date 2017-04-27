@@ -1,22 +1,17 @@
 body {
-    font-size: 4px;
-    line-height: 1.875;
+    font-size: 16px;
+    line-height: 18px;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Roboto";
 }
     
 .container h1 {
-    font-size: 10px;
-    line-height: 1;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: "Roboto";
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 600;
 }
 .product-card h2 {
-    font-size: 5px;
-    line-height: 1.667;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 30px;
 }
