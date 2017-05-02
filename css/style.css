@@ -4,14 +4,111 @@ body {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Roboto";
-}
-    
+}   
 .container h1 {
     font-size: 55px;
     line-height: 55px;
     font-weight: 600;
+    text-align: center;
 }
 .product-card h2 {
     font-size: 18px;
     line-height: 30px;
+}
+.main-navigation li {
+    display: inline-block;
+}
+.catalog-pages li {
+    display: inline-block;  
+}
+.sorting li {
+    display: inline-block;  
+}
+.main-header {
+    min-height: 70px;
+    margin-bottom: 60px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main-navigation {
+    width: 1000px;
+    float: left;
+    min-height: 70px;
+}
+.user-block {
+    width: 180px;
+    float: right;
+    min-height: 70px;
+}
+.slider {
+    width: 1060px;
+}
+.service {
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+.about {
+    width: 660px;
+    float: left;
+    margin-left: 20px;
+}
+.statistic {
+    width: 360px;
+    float: right;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+.partners {
+    width: 1160px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+.partners a {
+    display: inline-block;  
+    margin-left: 46px;
+    margin-right: 46px;
+    vertical-align: middle;   
+}
+.seeking-form {
+    float: left;
+    width: 260px;  
+    margin-left: 20px;
+}
+.catalog {
+    float: right;
+    width: 760px;
+    margin-right: 20px;
+}
+.product-card {
+    display: inline-block;
+    width: 360px;
+    vertical-align: top;
+}
+.footer-social {
+   width: 260px;
+    float: left; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-social a {
+    display: inline-block;
+}
+.discount {
+    width: 560px;
+    float: left;
+    margin-left: 140px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }

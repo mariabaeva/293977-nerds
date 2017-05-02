@@ -7,7 +7,7 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="container">
+            <div class="container clearfix">
                 <nav class="main-navigation">
                     <ul>
                         <li>
@@ -35,85 +35,93 @@
                 <h1>Магазин готовых шаблонов</h1>
             </div>  
         </header>
-        <main class="container">
-            <form action="#" method="get">
-                <fieldset>
-                    <legend>Стоимость:</legend>
-                    <input type="text" name="min-price" value="0"><label>От</label>
-                    <input type="text" name="max-price" value="15 000"><label>До</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Сетка:</legend>
-                    <input type="radio" id="responsive" name="sample-grid" checked><label for="responsive">Адаптивная</label>
-                    <input type="radio" id="fixed" name="sample-grid"><label for="fixed">Фиксированная</label>
-                    <input type="radio" id="fluid" name="sample-grid"><label for="fluid">Резиновая</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Особенности:</legend>
-                    <input type="checkbox" id="slider" name="slider" checked><label for="slider">Слайдер</label>
-                    <input type="checkbox" id="advantages" name="advantages"><label for="advantages">Блок преимуществ</label>
-                    <input type="checkbox" id="news" name="news" checked><label for="news">Новости</label>
-                    <input type="checkbox" id="gallery" name="gallery"><label for="gallery">Галерея</label>
-                    <input type="checkbox" id="cart" name="cart"><label for="cart">Корзина</label>
-                </fieldset>
-                <button type="submit">Показать</button>
-            </form>
-            <div>
-                <span>Сортировать:</span>
-                <ul>
-                    <li><a href="#">По цене</a></li>
-                    <li><a href="#">По типу</a></li>
-                    <li><a href="#">По названию</a></li>
-                </ul>
-            </div>
-            <article class="product-card">
-                <img src="img/sedona-card.jpg" alt="Sedona">
-                <a href="#"><h2>Sedona</h2></a>
-                <span>Информационный сайт для туристов</span>
-                <span>9900 руб.</span>
-            </article>
-            <article class="product-card">
-                <img src="img/pink-card.jpg" alt="Pink">
-            </article>
-            <article class="product-card">
-                <img src="img/barbershop-card.jpg" alt="Barbershop">
-            </article>
-            <article class="product-card">
-                <img src="img/mishka-card.jpg" alt="Mishka">
-            </article>
-            <article class="product-card">
-                <img src="img/academy-card.jpg" alt="Academy">
-            </article>
-            <article class="product-card">
-                <img src="img/kvast-card.jpg" alt="Kvast">
-            </article>
-            <div class="catalog-pages">
-                <ul> 
-                    <li><a>1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">Следующая</a></li>
-                </ul>
-            </div>
+        <main class="container clearfix">
+            <section class="seeking-form clearfix">
+                <form action="https://echo.htmlacademy.ru" method="get">
+                    <fieldset>
+                        <legend>Стоимость:</legend>
+                        <input type="text" name="min-price" value="0"><label>От</label>
+                        <input type="text" name="max-price" value="15 000"><label>До</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Сетка:</legend>
+                        <input type="radio" id="responsive" name="sample-grid" checked><label for="responsive">Адаптивная</label>
+                        <input type="radio" id="fixed" name="sample-grid"><label for="fixed">Фиксированная</label>
+                        <input type="radio" id="fluid" name="sample-grid"><label for="fluid">Резиновая</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Особенности:</legend>
+                        <input type="checkbox" id="slider" name="slider" checked><label for="slider">Слайдер</label>
+                        <input type="checkbox" id="advantages" name="advantages"><label for="advantages">Блок преимуществ</label>
+                        <input type="checkbox" id="news" name="news" checked><label for="news">Новости</label>
+                        <input type="checkbox" id="gallery" name="gallery"><label for="gallery">Галерея</label>
+                        <input type="checkbox" id="cart" name="cart"><label for="cart">Корзина</label>
+                    </fieldset>
+                    <button type="submit">Показать</button>
+                </form>
+            </section>
+            <section class="catalog clearfix">
+                <div class="sorting">
+                    <span>Сортировать:</span>
+                    <ul>
+                        <li><a href="#">По цене</a></li>
+                        <li><a href="#">По типу</a></li>
+                        <li><a href="#">По названию</a></li>
+                    </ul>
+                </div>
+                <article class="product-card">
+                    <img src="img/sedona-card.jpg" alt="Sedona">
+                    <a href="#"><h2>Sedona</h2></a>
+                    <span>Информационный сайт для туристов</span>
+                    <span>9900 руб.</span>
+                </article>
+                <article class="product-card">
+                    <img src="img/pink-card.jpg" alt="Pink">
+                </article>
+                <article class="product-card">
+                    <img src="img/barbershop-card.jpg" alt="Barbershop">
+                </article>
+                <article class="product-card">
+                    <img src="img/mishka-card.jpg" alt="Mishka">
+                </article>
+                <article class="product-card">
+                    <img src="img/academy-card.jpg" alt="Academy">
+                </article>
+                <article class="product-card">
+                    <img src="img/kvast-card.jpg" alt="Kvast">
+                </article>
+                <div class="catalog-pages">
+                    <ul> 
+                        <li><a>1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">Следующая</a></li>
+                    </ul>
+                </div>
+            </section>
         </main>
         <footer class="main-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <img src="img/map.jpg" width="" height="" alt="Карта">
-                <section class="write">
-                    <h2>Nerd's Design Studio</h2><br>
-                    191186, Санкт-Петербург,<br>
-                    ул. Б.Конюшенная, д.19/8<br><br>
-                    тел.: +7(812)275-75-75
-                    <a href="#">Напишите нам</a>
+                <section class="writeus">
+                    <div class="container">
+                        <h2>Nerd's Design Studio</h2>
+                        191186, Санкт-Петербург,
+                        ул. Б.Конюшенная, д.19/8
+                        <a href="tel:+78122757575">тел.: +7(812)275-75-75</a>
+                        <a href="#">Напишите нам</a>
+                     </div>   
                 </section>
                 <section class="footer-social">
                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                     <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                </section>  
+                <div class="discount">
                     <p>Давайте дружить, это выгодно!</p>
                     <p>Скидка 10% для друзей из социальных сетей</p>
-                </section>
-            </div>    
+                </div>
+            </div>
         </footer>
         <div class="modal-window">
             <h1>Напишите нам</h1>
